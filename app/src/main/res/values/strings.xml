@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">pr15_rmp</string>
+    <string name="hello">ПРИВЕТ</string>
+    <string name="welcome_text">Наслаждайся отборочными.\nБудь внимателен. \nДелай хорошо.</string>
+    <string name="login_button">Войти в аккаунт</string>
+    <string name="register_text">Еще нет аккаунта? Зарегистрируйтесь</string>
+    <string name="sign">Sign in</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="register">Register</string>
+    <string name="profile">Профиль</string>
+</resources>
