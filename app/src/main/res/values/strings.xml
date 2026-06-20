@@ -9,4 +9,22 @@
     <string name="password">Пароль</string>
     <string name="register">Register</string>
     <string name="profile">Профиль</string>
+
+    <string name="greeting">С возвращением, Эмиль!</string>
+    <string name="greeting_text_2">Каким ты себя ощущаешь сегодня?</string>
+    <string name="calm_text">Спокойным</string>
+    <string name="relax_text">Расслабленным</string>
+    <string name="focus_text">Сосредоточеным</string>
+    <string name="excited_text">Взволнованным</string>
+    <string name="normally_text">Норм</string>
+
+
+    <string name="menu_text">Тут будет меню</string>
+    <string name="listening_text">Тут будет\nпрослушивание</string>
+
+    <string name="exit">exit</string>
+    <string name="profile_name">Эмиль</string>
+
+    <string name="delete">удалить</string>
+    <string name="close">закрыть</string>
 </resources>
