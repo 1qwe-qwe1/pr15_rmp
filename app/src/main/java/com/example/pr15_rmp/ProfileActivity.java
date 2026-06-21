@@ -1,6 +1,9 @@
 package com.example.pr15_rmp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +22,24 @@ public class ProfileActivity extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+        ImageView ivPhoto4 = findViewById(R.id.ivPhoto4);
+        ivPhoto4.setOnClickListener(v -> {
+            Intent intent = new Intent(ProfileActivity.this, PhotoActivity.class);
+            startActivity(intent);
+        });
+
+        ImageButton btnNavHome = findViewById(R.id.btnNavHome);
+        btnNavHome.setOnClickListener(v -> {
+            Intent intent = new Intent(ProfileActivity.this, MainActivity.class);
+            startActivity(intent);
+        });
+
+        ImageButton btnNavMusic = findViewById(R.id.btnNavMusic);
+        btnNavMusic.setOnClickListener(v -> {
+            Intent intent = new Intent(ProfileActivity.this, ListenActivity.class);
+            startActivity(intent);
         });
     }
 }

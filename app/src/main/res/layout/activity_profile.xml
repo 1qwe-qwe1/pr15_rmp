@@ -40,7 +40,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Аватар и имя профиля -->
     <ImageView
         android:id="@+id/ivProfilePic"
         android:layout_width="150dp"
@@ -51,7 +50,6 @@
         app:layout_constraintTop_toBottomOf="@id/ivMenu"
         app:srcCompat="@drawable/profile_pic" />
 
-    <!-- Галерея фото (вертикальный LinearLayout с двумя рядами) -->
     <TextView
         android:id="@+id/tvProfileName"
         android:layout_width="117dp"
@@ -64,7 +62,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ivProfilePic" />
 
-    <!-- Нижняя навигация -->
     <LinearLayout
         android:id="@+id/llPhotoGallery"
         android:layout_width="0dp"
@@ -78,7 +75,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvProfileName">
 
-        <!-- Первый ряд: фото 1 и 2 -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -105,7 +101,6 @@
                 app:srcCompat="@drawable/foto_2" />
         </LinearLayout>
 
-        <!-- Второй ряд: фото 3 и 4 -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
